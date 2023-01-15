@@ -1,5 +1,11 @@
 export default function Content() {
-  return <div></div>;
+  return (
+    <main>
+      <h1>
+        <a href="#GetStarted"></a>Select Your Country
+      </h1>
+    </main>
+  );
 }
 
 // Components:

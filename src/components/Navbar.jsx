@@ -1,13 +1,34 @@
 export default function Navbar() {
   return (
-    <nav className="nav--container">
-      <img
-        src="../src/img/beer-icon.png"
-        alt="Beer Icon"
-        className="nav--logo"
-      />
-      <h1>Beer-O-Clock Project!</h1>
-    </nav>
+    <header>
+      {/* <img
+          src="../src/img/beer-icon.png"
+          alt="Beer Icon"
+          className="nav--logo"
+        /> */}
+      <h1 className="nav--title">Beer-O-Clock</h1>
+      <input type="checkbox" class="nav--toggle" id="nav--toggle" />
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+          <li>
+            <a href="#About">About</a>
+          </li>
+          <li>
+            <a href="#GetStarted">Get Started</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <label for="nav--toggle" className="nav--toggle--label">
+        <span></span>
+      </label>
+    </header>
   );
 }
 
