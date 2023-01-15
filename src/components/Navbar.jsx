@@ -1,5 +1,14 @@
 export default function Navbar() {
-  return <h1>Beer-O-Clock Project!</h1>;
+  return (
+    <nav className="nav--container">
+      <img
+        src="../src/img/beer-icon.png"
+        alt="Beer Icon"
+        className="nav--logo"
+      />
+      <h1>Beer-O-Clock Project!</h1>
+    </nav>
+  );
 }
 
 // To do:
