@@ -12,16 +12,16 @@ export default function Navbar() {
       <nav>
         <ul>
           <li>
-            <a href="#Home">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#About">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#GetStarted">Get Started</a>
+            <a href="#getStarted">Get Started</a>
           </li>
           <li>
-            <a href="#Contact">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

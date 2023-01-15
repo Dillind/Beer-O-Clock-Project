@@ -1,9 +1,12 @@
+// import Home from "../components/nav-menu/Home";
+// import About from "../components/nav-menu/About";
+
 export default function Content() {
   return (
     <main>
-      <h1>
-        <a href="#GetStarted"></a>Select Your Country
-      </h1>
+      <section>
+        <h3>Select Country</h3>
+      </section>
     </main>
   );
 }
@@ -33,3 +36,17 @@ description=""
 }
 
 // 3/
+
+// LINKING PAGES??
+// <main>
+//   <h1>
+//     <Link to="#home" smooth>
+//       Home
+//     </Link>
+//     <Link to="#about" smooth>
+//       About
+//     </Link>
+//   </h1>
+//   <About />
+//   <Home />
+// </main>
