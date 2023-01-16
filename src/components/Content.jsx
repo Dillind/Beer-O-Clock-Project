@@ -1,11 +1,13 @@
 // import Home from "../components/nav-menu/Home";
 // import About from "../components/nav-menu/About";
+import Dropdown from "../components/Dropdown";
 
 export default function Content() {
   return (
     <main>
-      <section>
-        <h3>Select Country</h3>
+      <section className="country-selector">
+        <h4>Select Country</h4>
+        <Dropdown />
       </section>
     </main>
   );
@@ -15,7 +17,6 @@ export default function Content() {
 
 // 1/ Select Country
 // - Drop down functionality
-// - [Flag] + [Country]
 // When selected, it takes you to a list of Beers.
 
 // 2/ List of Beers from Chosen Country
