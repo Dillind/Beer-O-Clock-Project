@@ -5,41 +5,41 @@ export default [
   {
     id: 1,
     type: "Australian Beer",
+    img: "../src/img/beer-images/great-northern/single-beer.png",
+    desc: "Beer Description",
     size: "330mL",
     standardDrinks: "0.9",
     alcoholVolume: "3.5%",
-    country: "Australia",
-    brandName: "Great Northern Brewing Co.",
     closure: "Twist top",
     beerStyle: "Lager",
   },
 
   // (2) Victoria Bitter (VB)
 
-  //   {
-  //     id:
-  //     type:
-  //     size:
-  //     standardDrinks:
-  //     alcoholVolume:
-  //     country:
-  //     brandName:
-  //     closure:
-  //     beerStyle:
-  //   },
+  {
+    id: 2,
+    type: "Australian Beer",
+    img: "../src/img/beer-images/VB/single-beer.png",
+    desc: "Beer Description",
+    size: "375mL",
+    standardDrinks: "1.4",
+    alcoholVolume: "4.9%",
+    closure: "Twist Top",
+    beerStyle: "Lager",
+  },
 
   //  // (3) XXXX Gold
-  //   {
-  //     id:
-  //     type:
-  //     size:
-  //     standardDrinks:
-  //     alcoholVolume:
-  //     country:
-  //     brandName:
-  //     closure:
-  //     beerStyle:
-  //   },
+  {
+    id: 3,
+    type: "Australian Beer",
+    img: "../src/img/beer-images/Gold/single-beer.png",
+    desc: "Beer Description",
+    size: "375mL",
+    standardDrinks: "1",
+    alcoholVolume: "3.5%",
+    closure: "Twist Top",
+    beerStyle: "Lager",
+  },
 
   //   // (4) Hahn Super Dry
 
@@ -49,8 +49,6 @@ export default [
   //     size:
   //     standardDrinks:
   //     alcoholVolume:
-  //     country:
-  //     brandName:
   //     closure:
   //     beerStyle:
   //   },
@@ -60,8 +58,7 @@ export default [
   //     type:
   //     size:
   //     standardDrinks:
-  //     alcoholVolume:
-  //     country:
+  //     alcoholVolume
   //     brandName:
   //     closure:
   //     beerStyle:

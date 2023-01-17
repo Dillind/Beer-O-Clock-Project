@@ -1,13 +1,14 @@
 // import Home from "../components/nav-menu/Home";
 // import About from "../components/nav-menu/About";
-import Dropdown from "../components/Dropdown";
-
+import CountryDropdown from "./CountryDropdown";
 export default function Content() {
   return (
     <main>
       <section className="country-selector">
-        <h4>Select Country</h4>
-        <Dropdown />
+        {/* <h4>Select Country</h4> */}
+      </section>
+      <section className="drop-down">
+        <CountryDropdown />
       </section>
     </main>
   );

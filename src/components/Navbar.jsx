@@ -7,7 +7,7 @@ export default function Navbar() {
           className="nav--logo"
         /> */}
       <h1 className="nav--title">Beer-O-Clock</h1>
-      <input type="checkbox" class="nav--toggle" id="nav--toggle" />
+      <input type="checkbox" className="nav--toggle" id="nav--toggle" />
 
       <nav>
         <ul>
