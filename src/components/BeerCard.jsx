@@ -32,8 +32,9 @@ export default function BeerCard(props) {
           You will need a bottle opener to open this product.
         </h4>
       )}
-      <h4>[{props.desc}]</h4>
+      <h4 className="about--beer">About this product:</h4>
       <hr />
+      <h4 className="beer--description">{props.desc}</h4>
       <div className="card--stats--container">
         <h4>Product Information</h4>
         <div className="card--stats">

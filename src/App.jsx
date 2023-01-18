@@ -1,37 +1,35 @@
 import Navbar from "../src/components/Navbar";
 import Content from "../src/components/Content";
 import Footer from "../src/components/Footer";
-// import AusData from "./components/AusData";
-import AusBeer from "./components/BeerCard";
+
+import React, { createContext } from "react";
+import { useState } from "react";
+
+import ReactSwitch from "react-switch";
+
+export const ThemeContext = createContext(null);
 
 export default function App() {
-  // *** PROBLEM!: Couldn't figure out how to get it to work without it breaking everything else. ***
-  // const cards = AusData.map((item) => {
-  //   return (
-  //     <AusBeer
-  //       key={item.id}
-  //       type={item.type}
-  //       img={item.img}
-  //       desc={item.desc}
-  //       size={item.size}
-  //       standardDrinks={item.standardDrinks}
-  //       alcoholVolume={item.alcoholVolume}
-  //       closure={item.closure}
-  //       beerStyle={item.beerStyle}
-  //     />
-  //   );
-  // });
+  const [theme, setTheme] = useState("light");
 
+  const toggleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
   return (
-    <div className="page--container">
-      <div className="content--wrap">
-        <Navbar />
-        <div className="card--wrap">
-          <Content />
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className="page--container" id={theme}>
+        <div className="content--wrap">
+          <Navbar />
+          <div className="light-dark-toggle">
+            <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+          </div>
+          <div className="card--wrap">
+            <Content />
+          </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </ThemeContext.Provider>
   );
 }
 

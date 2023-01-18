@@ -13,7 +13,7 @@ export default function AustralianBeerCards() {
         name="Great Northern"
         img={GreatNorthernSingle}
         bottleopener={BottleOpener}
-        desc="Beer Description"
+        desc="Great Northern Brewing Co. Original lager was brewed with an outdoor lifestyle in mind. With its fruity aroma, low bitterness and clean, crisp finish, it's the ultimate refreshment for the Great Northern conditions. Brewed using a light stable hop to avoid the impact of sunlight, pale malt and lager yeast to produce a fruity, clean, refreshing lager."
         type="Australian Beer"
         size="330mL"
         standardDrinks="1.1"
@@ -31,8 +31,7 @@ export default function AustralianBeerCards() {
           name="Victoria Bitter"
           img={VictoriaBitterSingle}
           bottleopener={BottleOpener}
-          desc="Beer Description"
-          // "Mid strength meets full flavour. Golden Cluster hops brewed with the finest ingredients to give the lager its signature taste - a smooth, balanced flavour and body, complemented by mild bitterness. As soon as it hits your lips, you'll know exactly why it's a favourite with Aussies everywhere - and what we mean when we say it's Good as GOLD."
+          desc="Mid strength meets full flavour. Golden Cluster hops brewed with the finest ingredients to give the lager its signature taste - a smooth, balanced flavour and body, complemented by mild bitterness. As soon as it hits your lips, you'll know exactly why it's a favourite with Aussies everywhere - and what we mean when we say it's Good as GOLD."
           type="Australian Beer"
           size="375mL"
           standardDrinks="1.4"
